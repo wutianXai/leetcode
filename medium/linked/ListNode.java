@@ -1,7 +1,7 @@
-package medium.linked;
+package leetcode.medium.linked;
 /**
  * @author wutia
- * @ClassName medium.linked.ListNode
+ * @ClassName leetcode.medium.linked.ListNode
  * @date 2019/8/9 21:02
  */
 public class ListNode {
