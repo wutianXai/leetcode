@@ -1,9 +1,5 @@
 package leetcode.easy.tree;
 
-import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateReplyMessage_1_0;
-
-import javax.swing.*;
-
 /**
  * @author wutia
  * @ClassName IsValidBST
