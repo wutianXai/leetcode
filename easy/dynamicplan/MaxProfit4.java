@@ -29,7 +29,7 @@ import java.util.Arrays;
  * @date ：Created in 2019/9/21 11:14
  */
 public class MaxProfit4 {
-    public static int maxProfit(int k, int[] prices) {//未完成
+    public static int maxProfit(int k, int[] prices) {//待续
         if(k==0)return 0;
 
         int sell []=new int[k];
