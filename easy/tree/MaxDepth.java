@@ -1,8 +1,25 @@
 package leetcode.easy.tree;
+/*
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-import javafx.scene.transform.Rotate;
+若为输入数字判断数的最大深度：
+如：
+示例1
+输入
 
+5
+0 1
+0 2
+1 3
+1 4
+输出
+
+3
+思路：
+采用数组存储各节点，编号对应数组下标，数组元素的值为父节点编号；
+如果数组长度为1，表示只有一个节点，故树的高度为1；
+否则，从后向前依次遍历，以该节点为叶子节点时，数的高度，比较取最大值即为整棵树的高度
+
+ */
 /**
  * @author wutia
  * @ClassName MaxDepth
